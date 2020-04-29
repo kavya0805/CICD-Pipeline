@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.TestAreaCalculatorService
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.116 s <<< FAILURE! - in com.TestAreaCalculatorService
+testCir  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <100.0> but was: <314.1592653589793>
+	at com.TestAreaCalculatorService.testCir(TestAreaCalculatorService.java:46)
+
+testSqr  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200.0> but was: <100.0>
+	at com.TestAreaCalculatorService.testSqr(TestAreaCalculatorService.java:36)
+
+testRect  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200.0> but was: <100.0>
+	at com.TestAreaCalculatorService.testRect(TestAreaCalculatorService.java:41)
+
