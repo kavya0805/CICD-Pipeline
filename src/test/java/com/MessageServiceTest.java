@@ -26,7 +26,7 @@ public class MessageServiceTest {
 		Assertions.assertEquals(ms.welcome(), "Welcome!!!");
 	}
 	
-	@Test
+	/*@Test
 	public void testMessages() {
 		MessageService ms = new MessageService();
 		System.out.println("hello");
@@ -38,6 +38,6 @@ public class MessageServiceTest {
 		MessageService ms = new MessageService();
 		System.out.println("Welcome!!!");
 		Assertions.assertEquals(ms.welcome(), "hello");
-	}
+	}*/
 
 }

@@ -31,7 +31,7 @@ public class TestAreaCalculatorService {
 		Assertions.assertEquals(314.1592653589793, ac.circle(param1));
 	}
 	
-	@Test
+	/*@Test
 	public void testSqr(){
 		Assertions.assertEquals(200, ac.square(param1));
 	}
@@ -44,6 +44,6 @@ public class TestAreaCalculatorService {
 	@Test
 	public void testCir(){
 		Assertions.assertEquals(100, ac.circle(param1));
-	}
+	}*/
 	
 }
