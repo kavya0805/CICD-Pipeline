@@ -1,0 +1,9 @@
+version: "3"
+services:
+  naughty_yalow:
+    image: kavikarthic/cicd:1.0
+    ports:
+      - 9090:9091
+  
+  operatingsystem:
+     image: ubuntu
